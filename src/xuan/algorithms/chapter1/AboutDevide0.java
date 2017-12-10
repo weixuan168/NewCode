@@ -11,7 +11,7 @@ public class AboutDevide0 {
 //        System. out. println("Value is" + x);
 
         //Infinity：无穷大
-        System.out.println(1.0/0.0);
+        System.out.println(1.0/0.0);//0.0具体是多少，谁也不知道，是由虚拟机运行时在某一个误差范围内随即产生的
         System.out.println(1.0/0);
         System.out.println(1/0.0);
 

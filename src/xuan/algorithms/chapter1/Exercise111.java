@@ -14,7 +14,9 @@ public class Exercise111 {
         System.out.println(4.1 >= 4); //true
         System.out.println(1 + 2 + "3"); //33
 
-        System.out.println(0.0 == 0);
+        System.out.println(0.0 == 0);//true
+        System.out.println((double)(3/4));//0.0
+        System.out.println((float)(3/4));//0.0
 
     }
 }

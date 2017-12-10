@@ -11,9 +11,15 @@ public class Exercise124 {
         System.out.println(string1);//world
         System.out.println(string2);//hello
 
+        String string3 = new String("string3");
+        String string4 = string3;
+        string3 = "newstring3";
+        System.out.println(string3);
+        System.out.println(string4);
+
         String s = "Hello World";
-        s.toUpperCase();
-        s.substring(6, 11);
+        System.out.println(s.toUpperCase());//生成新的字符串，不改变原字符串的值
+        System.out.println(s.substring(6, 11));//生成新的字符串，不改变原字符串的值
         System.out.println(s);//Hello World
     }
 }
