@@ -21,5 +21,10 @@ public class Exercise124 {
         System.out.println(s.toUpperCase());//生成新的字符串，不改变原字符串的值
         System.out.println(s.substring(6, 11));//生成新的字符串，不改变原字符串的值
         System.out.println(s);//Hello World
+
+        int[] a = {1, 2, 3, 4};
+        int i;
+        for (i = 0; a[i] != 4; i++) ;//注意这里的分号
+        System.out.println(i);
     }
 }

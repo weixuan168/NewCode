@@ -2,6 +2,7 @@ package xuan.algorithms.sort;
 
 /**
  * Created by Xuan on 2017/11/3.
+ * 堆排序
  */
 public class Heap {
     public static void heapSort(int array[]) {
@@ -10,7 +11,7 @@ public class Heap {
         for (int i = 1; i <= n; i++) {
             newArray[i] = array[i - 1];
         }
-        for(int i=n/2;i>=1;i--) {
+        for(int i=n/2;i>=1;i--) { //建堆
             sift(newArray, i, n);
         }
         for (int i = 1; i <= n; i++ ) {

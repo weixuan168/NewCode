@@ -2,6 +2,7 @@ package xuan.algorithms.sort;
 
 /**
  * Created by Xuan on 2017/10/31.
+ * 插入排序
  */
 public class Insertion {
     public static void insertion(int array[]) {

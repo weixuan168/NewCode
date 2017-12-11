@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by Xuan on 2017/10/31.
+ * 快速排序
  */
 public class Quick {
     //有序序列进行快速排序会退化成冒泡排序，因此在排序前对序列进行随机化，可使时间复杂度基本控制在O(nlogn)。
