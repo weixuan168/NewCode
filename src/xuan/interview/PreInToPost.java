@@ -45,8 +45,8 @@ public class PreInToPost {
     }
 
     public static void main(String[] args) {
-        String preOrder = "124536";
-        String inOrder = "425136";
+        String preOrder = "ABCDEFGHIJ";
+        String inOrder = "CBAEFDIHJG";
         PreInToPost p = new PreInToPost();
         TreeNode root = p.constructTree(preOrder, inOrder);
         p.postOderTraverse(root);
