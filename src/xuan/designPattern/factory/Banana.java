@@ -1,0 +1,11 @@
+package xuan.designPattern.factory;
+
+/**
+ * Created by xuanwei on 2018/3/18.
+ */
+public class Banana extends Fruit {
+    @Override
+    public void printFruit() {
+        System.out.println("This is banana");
+    }
+}
