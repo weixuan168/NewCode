@@ -1,4 +1,4 @@
-package xuan.toGetOffer.singleton;
+package xuan.designPattern.singleton;
 
 /**
  * Created by xuanwei on 2018/3/14.
