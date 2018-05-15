@@ -1,5 +1,8 @@
 package xuan.algorithms.sort;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * Created by Xuan on 2017/11/3.
  * 堆排序
@@ -39,6 +42,8 @@ public class Heap {
     }
 
     public static void main(String[] args) {
+        int[][] arr = new int[2][2];
+        Arrays.sort(arr, (Comparator.comparingInt(o -> o[0])));
         int array[] = {3, 5, 4, 7, 2, 1};
         heapSort(array);
         for (int i : array) {
